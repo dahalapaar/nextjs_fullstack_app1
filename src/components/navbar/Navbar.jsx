@@ -2,6 +2,7 @@
 import React from "react"
 import Link from "next/link"
 import styles from "./page.module.css"
+import DarkModeToogle from "../darkModeToogle/DarkModeToogle"
 
 const links = [
   {
@@ -43,6 +44,7 @@ const Navbar = () => {
         .apaar
       </Link>
       <div className={styles.links}>
+        <DarkModeToogle />
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}
