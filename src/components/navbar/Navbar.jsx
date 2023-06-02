@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        apaar
+        .apaar
       </Link>
       <div className={styles.links}>
         {links.map((link) => (
