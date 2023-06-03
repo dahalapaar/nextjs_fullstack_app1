@@ -12,12 +12,12 @@
 }
 
 .icon {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .ball {
   height: 15px;
-  width: 15px;
+  width: 17px;
   border-radius: 50%;
   background-color: #53c28b;
   position: absolute;
