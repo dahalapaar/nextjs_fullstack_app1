@@ -4,6 +4,7 @@ import Image from "next/image"
 import { useRouter } from "next/navigation"
 import React, { useEffect, useState } from "react"
 import useSWR from "swr"
+import styles from "./page.module.css"
 
 const Dashboard = () => {
   // const [data, setData] = useState([])
